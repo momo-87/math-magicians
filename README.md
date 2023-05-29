@@ -31,7 +31,7 @@
 
 <br>
 
-# 📖 Leaderboard Project <a name="API-based webapp"></a>
+# 📖 Math Magicians <a name="API-based webapp"></a>
 >"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 >- Make simple calculations.
 >- Read a random math-related quot.
@@ -67,9 +67,9 @@
 - A popup window with more data about an item that user can use to reserve it for a period of time.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 <!-- >[Live Demo](https://momo-87.github.io/JS-capstone-project/) -->
-> Coming soon.
+> Coming soon. -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -96,13 +96,11 @@
 ```
 
 ### Usage
-> To run the project, open index.html from dist folder using live server extension.
-
+> npm start
 ### Run tests
-> Coming soon
-
+> npm test
 ### Deployment
-> Published
+> npm run build
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
