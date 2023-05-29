@@ -69,7 +69,7 @@
 
 <!-- ## 🚀 Live Demo <a name="live-demo"></a>
 <!-- >[Live Demo](https://momo-87.github.io/JS-capstone-project/) -->
-<!-- > Coming soon. --> -->
+<!-- > Coming soon. --> 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
