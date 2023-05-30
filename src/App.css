@@ -16,7 +16,7 @@ div.App h1 {
 }
 
 div.wrapper {
-  width: 60%;
+  width: 25%;
   margin-top: 100px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -29,7 +29,7 @@ div.input-box {
 
 input.input {
   width: 100%;
-  height: 40px;
+  height: 50px;
   background-color: #828390;
   color: aliceblue;
   font-weight: bolder;
@@ -61,7 +61,7 @@ div.operator-btn button,
 div.dot-box button,
 div.percentage-box button {
   width: 100%;
-  height: 40px;
+  height: 50px;
   font-weight: bolder;
   font-size: 1rem;
   border: 1px solid #828390;
