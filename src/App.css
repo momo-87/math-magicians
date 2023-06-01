@@ -35,6 +35,8 @@ input.input {
   font-weight: bolder;
   font-size: 1rem;
   border: none;
+  text-align: right;
+  padding-right: 1.5%;
 }
 
 input.input:focus {
@@ -62,9 +64,14 @@ button.zero {
   border: 1px solid #828390;
 }
 
+.btn:hover {
+  background-color: #828390;
+}
+
 .division,
 .multiplication,
 .soustraction,
-.addition {
+.addition,
+.equal {
   background-color: #f5913e;
 }
