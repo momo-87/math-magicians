@@ -75,3 +75,10 @@ button.zero {
 .equal {
   background-color: #f5913e;
 }
+
+p.quote-paragraph {
+  margin-top: 20px;
+  width: 25%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
