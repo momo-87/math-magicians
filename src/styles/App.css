@@ -4,17 +4,6 @@
   margin: 0;
 }
 
-div.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 40px;
-}
-
-div.App h1 {
-  display: none;
-}
-
 div.wrapper {
   width: 25%;
   margin-top: 100px;
