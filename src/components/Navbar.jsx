@@ -1,4 +1,5 @@
 import logo from 'assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const links = [
@@ -16,7 +17,7 @@ const Navbar = () => {
         <ul>
           {links.map((link) => (
             <li key={link.text}>
-              <a href={link.path}>{link.text}</a>
+              <Link to={link.path}>{link.text}</Link>
             </li>
           ))}
         </ul>
