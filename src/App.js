@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import CalculatorPage from 'routes/CalculatorPage';
 import Quote from 'routes/Quote';
 import Home from 'routes/Home';
+import Layout from 'routes/Layout';
 import backgroundMobile from 'assets/backgroundMobile.jpg';
 import background from 'assets/background.jpg';
 
@@ -19,9 +20,11 @@ function App() {
   return (
     <div style={appStyle}>
       <Routes>
-        <Route path="home" element={<Home />} />
-        <Route path="/" element={<CalculatorPage />} />
-        <Route path="quote" element={<Quote />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="calculator" element={<CalculatorPage />} />
+          <Route path="quote" element={<Quote />} />
+        </Route>
       </Routes>
     </div>
   );
