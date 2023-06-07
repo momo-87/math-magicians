@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 const DisplayQuote = () => {
   const [quote, setQuote] = useState('');
+  const [author, setAuthor] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
 
@@ -17,6 +18,7 @@ const DisplayQuote = () => {
         });
         const data = await response.json();
         setQuote(data[0].quote);
+        setAuthor(data[0].author);
       } catch (err) {
         setHasError(true);
       }
@@ -35,7 +37,13 @@ const DisplayQuote = () => {
     );
   }
   return (
-    <p className="quote-paragraph">{quote}</p>
+    <p className="quote-paragraph">
+      {quote}
+      <br />
+      <span>
+        {author}
+      </span>
+    </p>
   );
 };
 export default DisplayQuote;
