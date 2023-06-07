@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import CalculatorPage from 'routes/CalculatorPage';
+import Quote from 'routes/Quote';
 import backgroundMobile from 'assets/backgroundMobile.jpg';
 import background from 'assets/background.jpg';
 
@@ -18,6 +19,7 @@ function App() {
     <div style={appStyle}>
       <Routes>
         <Route path="/" element={<CalculatorPage />} />
+        <Route path="quote" element={<Quote />} />
       </Routes>
     </div>
   );
