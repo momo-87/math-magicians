@@ -1,50 +1,48 @@
 @media only screen and (min-width: 320px) {
-    .quote {
-        margin: 30vh 5% 0 5%;
-        padding: 2vh 5% 2vh 5%;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 90%;
-    }
+  .quote {
+    margin: 30vh 5% 0 5%;
+    padding: 2vh 5% 2vh 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 90%;
+  }
 
-    .quote p {
-        width: 100%;
-        margin: 0;
-        font-size: 1.2rem;
-        color: aliceblue;
-        line-height: 30px;
-    }
+  .quote p {
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    color: aliceblue;
+    line-height: 30px;
+  }
 
-    .quote p span {
-        display: flex;
-        font-style: italic;
-        margin-top: 20px;
-        justify-content: end;
-    }
+  .quote p span {
+    display: flex;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: end;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .quote {
-        width: 80%;
-        margin-top: 40vh;
-        margin: 35vh 10% 0 10%;
-    }
+  .quote {
+    width: 80%;
+    margin: 35vh 10% 0 10%;
+  }
 
-    .quote p {
-        font-size: 1.2rem;
-    }
+  .quote p {
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .quote {
-        width: 70%;
-        margin-top: 40vh;
-        margin: 35vh 15% 0 15%;
-    }
+  .quote {
+    width: 70%;
+    margin: 35vh 15% 0 15%;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
-    .quote {
-        width: 50%;
-        margin: 40vh 25% 0 25%;
-    }
+  .quote {
+    width: 50%;
+    margin: 40vh 25% 0 25%;
+  }
 }
