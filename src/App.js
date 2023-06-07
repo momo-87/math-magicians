@@ -1,5 +1,5 @@
-import Calculator from 'components/Calculator';
-import DisplayQuote from 'components/DisplayQuote';
+import { Routes, Route } from 'react-router-dom';
+import CalculatorPage from 'routes/CalculatorPage';
 import backgroundMobile from 'assets/backgroundMobile.jpg';
 import background from 'assets/background.jpg';
 
@@ -16,8 +16,9 @@ function App() {
   };
   return (
     <div style={appStyle}>
-      <Calculator />
-      <DisplayQuote />
+      <Routes>
+        <Route path="/" element={<CalculatorPage />} />
+      </Routes>
     </div>
   );
 }
