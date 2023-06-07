@@ -5,12 +5,36 @@
 }
 
 @media only screen and (min-width: 320px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.13rem;
+  }
+
   div.wrapper {
     width: 90%;
-    margin-top: 100px;
+    margin-top: 150px;
+  }
+
+  div.calculatorWrapper {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto auto auto auto auto;
+  }
+
+  div.wrapper h2 {
+    grid-column: 1/5;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    padding-left: 2%;
+    height: 5vh;
   }
 
   div.input-box {
@@ -20,8 +44,8 @@
   input.input {
     width: 100%;
     height: 50px;
-    background-color: #828390;
     color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.8);
     font-weight: bolder;
     font-size: 1rem;
     border: none;
@@ -51,11 +75,11 @@
     height: 50px;
     font-weight: bolder;
     font-size: 1rem;
-    border: 1px solid #828390;
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   .btn:hover {
-    background-color: #828390;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .division,
@@ -63,7 +87,7 @@
   .soustraction,
   .addition,
   .equal {
-    background-color: #f5913e;
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   p.quote-paragraph {
@@ -74,6 +98,39 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  * {
+    font-size: 1.13rem;
+    line-height: 30px;
+  }
 
+  h1 {
+    font-size: 2.22rem;
+  }
 
+  h2 {
+    font-size: 1.89rem
+  }
 
+  div.wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.calculatorWrapper {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  div.wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  div.wrapper {
+    width: 70%;
+  }
+}

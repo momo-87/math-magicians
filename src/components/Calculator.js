@@ -5,29 +5,34 @@ import 'styles/calculator.css';
 
 const Calculator = () => {
   const [data, setData] = useState({ total: '', next: '', operation: '' });
+  const calculatorTitle = "Let's do some Math!";
   return (
     <div className="wrapper">
-      <Input data={data} />
-      <ACBtn name="AC" data={data} setData={setData} />
-      <PlusMinusBtn name="+/-" data={data} setData={setData} />
-      <ModuloBtn name="%" data={data} setData={setData} />
-      <DivisionBtn name="÷" data={data} setData={setData} />
-      <SevenBtn name="7" data={data} setData={setData} />
-      <EightBtn name="8" data={data} setData={setData} />
-      <NineBtn name="9" data={data} setData={setData} />
-      <MultiplicationBtn name="x" data={data} setData={setData} />
-      <FourBtn name="4" data={data} setData={setData} />
-      <FiveBtn name="5" data={data} setData={setData} />
-      <SixBtn name="6" data={data} setData={setData} />
-      <MinusBtn name="-" data={data} setData={setData} />
-      <OneBtn name="1" data={data} setData={setData} />
-      <TwoBtn name="2" data={data} setData={setData} />
-      <ThreeBtn name="3" data={data} setData={setData} />
-      <PlusBtn name="+" data={data} setData={setData} />
-      <ZeroBtn name="0" data={data} setData={setData} />
-      <DotBtn name="." data={data} setData={setData} />
-      <EqualBtn name="=" data={data} setData={setData} />
+      <h2>{calculatorTitle}</h2>
+      <div className="calculatorWrapper">
+        <Input data={data} />
+        <ACBtn name="AC" data={data} setData={setData} />
+        <PlusMinusBtn name="+/-" data={data} setData={setData} />
+        <ModuloBtn name="%" data={data} setData={setData} />
+        <DivisionBtn name="÷" data={data} setData={setData} />
+        <SevenBtn name="7" data={data} setData={setData} />
+        <EightBtn name="8" data={data} setData={setData} />
+        <NineBtn name="9" data={data} setData={setData} />
+        <MultiplicationBtn name="x" data={data} setData={setData} />
+        <FourBtn name="4" data={data} setData={setData} />
+        <FiveBtn name="5" data={data} setData={setData} />
+        <SixBtn name="6" data={data} setData={setData} />
+        <MinusBtn name="-" data={data} setData={setData} />
+        <OneBtn name="1" data={data} setData={setData} />
+        <TwoBtn name="2" data={data} setData={setData} />
+        <ThreeBtn name="3" data={data} setData={setData} />
+        <PlusBtn name="+" data={data} setData={setData} />
+        <ZeroBtn name="0" data={data} setData={setData} />
+        <DotBtn name="." data={data} setData={setData} />
+        <EqualBtn name="=" data={data} setData={setData} />
+      </div>
     </div>
+
   );
 };
 const Input = ({ data }) => (<div className="input-box"><input className="input" type="number" placeholder="0" value={data.next || data.total || ''} readOnly /></div>);

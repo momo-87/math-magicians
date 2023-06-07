@@ -1,5 +1,6 @@
 import Calculator from 'components/Calculator';
 import DisplayQuote from 'components/DisplayQuote';
+import backgroundMobile from 'assets/backgroundMobile.jpg';
 import background from 'assets/background.jpg';
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
     flexDirection: 'column',
     alignItems: 'center',
     paddingBottom: '40px',
-    height: '100vh',
-    backgroundImage: `url(${background})`,
-    backgroundSize: '100%',
+    minHeight: '100vh',
+    backgroundImage: window.matchMedia('(min-width: 768px)').matches ? `url(${background})` : `url(${backgroundMobile})`,
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'none',
   };
   return (
     <div style={appStyle}>
