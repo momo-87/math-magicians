@@ -8,7 +8,7 @@ const Calculator = () => {
   const calculatorTitle = "Let's do some Math!";
   return (
     <div className="wrapper">
-      <h2>{calculatorTitle}</h2>
+      <h1>{calculatorTitle}</h1>
       <div className="calculatorWrapper">
         <Input data={data} />
         <ACBtn name="AC" data={data} setData={setData} />

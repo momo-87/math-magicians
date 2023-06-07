@@ -13,10 +13,6 @@
     font-size: 1.3rem;
   }
 
-  h2 {
-    font-size: 1.13rem;
-  }
-
   div.wrapper {
     width: 90%;
     margin-top: 150px;
@@ -28,13 +24,12 @@
     grid-template-rows: auto auto auto auto auto auto;
   }
 
-  div.wrapper h2 {
-    grid-column: 1/5;
+  div.wrapper h1 {
     color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
-    padding-left: 2%;
-    height: 5vh;
+    padding: 2vh 2% 2vh 2%;
+    height: 10vh;
   }
 
   div.input-box {
@@ -100,22 +95,19 @@
 
 @media only screen and (min-width: 768px) {
   * {
-    font-size: 1.13rem;
-    line-height: 30px;
+    font-size: 1.2rem;
+    line-height: 40px;
   }
 
   h1 {
-    font-size: 2.22rem;
-  }
-
-  h2 {
-    font-size: 1.89rem
+    font-size: 1.89rem;
   }
 
   div.wrapper {
     width: 95%;
     display: flex;
     justify-content: space-between;
+    margin-top: 190px;
   }
 
   div.calculatorWrapper {
@@ -131,6 +123,7 @@
 
 @media only screen and (min-width: 1440px) {
   div.wrapper {
-    width: 60%;
+    width: 70%;
+    margin-top: 210px;
   }
 }

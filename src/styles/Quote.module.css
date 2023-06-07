@@ -2,15 +2,16 @@
     .quote {
         margin-top: 30vh;
         padding: 2vh 5% 2vh 5%;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.4);
         width: 90%;
     }
 
     .quote p {
         width: 100%;
         margin: 0;
-        font-size: 1.13rem;
+        font-size: 1.2rem;
         color: aliceblue;
+        line-height: 30px;
     }
 
     .quote p span {
@@ -35,13 +36,11 @@
 @media only screen and (min-width: 992px) {
     .quote {
         width: 70%;
-        margin-top: 50vh;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .quote {
         width: 50%;
-        margin-top: 50vh;
     }
 }
