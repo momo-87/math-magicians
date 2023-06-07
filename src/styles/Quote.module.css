@@ -1,6 +1,6 @@
 @media only screen and (min-width: 320px) {
     .quote {
-        margin-top: 30vh;
+        margin: 30vh 5% 0 5%;
         padding: 2vh 5% 2vh 5%;
         background-color: rgba(0, 0, 0, 0.4);
         width: 90%;
@@ -26,6 +26,7 @@
     .quote {
         width: 80%;
         margin-top: 40vh;
+        margin: 35vh 10% 0 10%;
     }
 
     .quote p {
@@ -36,11 +37,14 @@
 @media only screen and (min-width: 992px) {
     .quote {
         width: 70%;
+        margin-top: 40vh;
+        margin: 35vh 15% 0 15%;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .quote {
         width: 50%;
+        margin: 40vh 25% 0 25%;
     }
 }

@@ -1,17 +1,21 @@
 @media only screen and (min-width: 320px) {
     .homePageWrapper {
-        margin-top: 150px;
+        margin: 150px 2.5% 0 2.5%;
         width: 95%;
         font-size: 1.2rem;
         line-height: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        align-items: center;
     }
 
     .homePageWrapper h1 {
-        margin-bottom: 3vh;
         background-color: rgba(0, 0, 0, 0.4);
         color: aliceblue;
         height: 10vh;
         padding: 2vh 5% 2vh 5%;
+        width: 100%;
     }
 
     .paragraphBox {

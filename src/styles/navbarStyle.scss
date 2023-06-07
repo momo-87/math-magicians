@@ -1,0 +1,120 @@
+@media only screen and (min-width: 320px) {
+
+    div.navbarWrapper {
+        width: 100%;
+
+        nav {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-size: 1rem;
+            justify-content: space-between;
+            width: 100%;
+
+            div.logoBox {
+                width: 40%;
+                display: flex;
+                align-items: center;
+                margin-left: 1%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+                width: 55%;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 2%;
+                padding-right: 2%;            
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color:aliceblue;
+                    }
+
+                    a:hover {
+                        border-bottom: 2px solid aliceblue;
+                        font-size: 110%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    div.navbarWrapper {
+
+        nav {
+
+            div.logoBox {
+                width: 30%;
+                margin-left: 3%;
+            }
+
+            ul {
+                width: 45%;           
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.navbarWrapper {
+
+        nav {
+
+            div.logoBox {
+                width: 20%;
+                margin-left: 3%;
+            }
+
+            ul {
+                width: 40%;           
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    div.navbarWrapper {
+
+        nav {
+
+            div.logoBox {
+                width: 15%;
+                margin-left: 3%;
+            }
+
+            ul {
+                width: 35%;           
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    div.navbarWrapper {
+
+        nav {
+
+            div.logoBox {
+                width: 10%;
+                margin-left: 3%;
+            }
+
+            ul {
+                width: 25%;           
+            }
+        }
+    }
+}
