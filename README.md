@@ -62,9 +62,9 @@
 <br>
 
 ### Key Features <a name="key-features"></a>
-- A home page showing a list of items that a user can "like."
-- A popup window with more data about an item that user can use to comment on it.
-- A popup window with more data about an item that user can use to reserve it for a period of time.
+- A Home page showing introducing text.
+- A Calculator page showing an awasome calculator.
+- A Quote page showing nice quotes about success.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
