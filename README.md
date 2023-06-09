@@ -6,6 +6,9 @@
   
   <h2><b>Math Magicians App</b></h2>
 </div>
+<div align="center">
+  <img src="./src/assets/card.png" alt="screenshot"/>
+</div>
 
 # 📗 Table of Contents
 
